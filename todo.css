@@ -33,6 +33,7 @@ body{
     padding: 10px;
     border-radius: 70px;
     width: 60%;
+    border-style:none;
 }
 
 #addbtn{
