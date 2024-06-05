@@ -1,0 +1,170 @@
+/* *{
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('images/todo.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 100vh; 
+
+}
+.container{
+
+    position: relative;
+    max-width: 500px;
+    background-color:pink;
+    padding: 20px;
+    box-shadow: 10px solid;
+    left: 370px;
+    border-radius: 10px;
+    top: 150px;
+    
+}
+#inputt{
+    position: relative;
+    left: 90px;
+    border: 2px solid black;
+    background-color: black;
+    color: aquamarine;
+    padding: 10px;
+    border-radius: 70px;
+    width: 60%;
+}
+
+#addbtn{
+    position: relative;
+    left: 30px;
+    border: 2px solid black;
+    background-color:red;
+    color: aquamarine;
+    padding: 10px;
+    border-radius: 70px;
+    width: 20%;
+    cursor: pointer;
+}
+
+
+.list{
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.deletebtn{
+    position: relative;
+    left: 210px;
+    color:white;    
+    border-radius: 30px;
+    background-color: red;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.completebtn{
+    position: relative;
+    left: 200px;
+    color:white;
+    border-radius: 30px;
+    background-color: red;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.completed{
+    text-decoration: line-through;
+} */
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/todo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    max-width: 500px;
+    background-color: #008080;
+    box-shadow: 10px solid black;
+    padding: 20px;
+    box-shadow: 10px solid;
+    margin: 0 auto;
+    border-radius: 10px;
+    top: 150px;
+    color: #000000;
+}
+h2 {
+    color: #FFFFFF; 
+    font-family:cursive;
+}
+#inputt {
+    position: relative;
+    left: 90px;
+    
+    background-color: #FFFFFF; 
+    color: black;
+    padding: 10px;
+    border-radius: 70px;
+    width: 60%;
+}
+
+#addbtn {
+    position: relative;
+    left: 30px;
+    border: 2px solid #32CD32; /* Vibrant Green border */
+    background-color: #32CD32;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 70px;
+    width: 18%;
+    cursor: pointer;
+}
+
+.list {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-word;
+}
+
+.list span{
+    flex: 1;
+    margin-right: 10px;
+}
+
+.completeimg, .deleteimg {
+    cursor: pointer;
+    width: 20px; 
+    height: 20px; 
+    margin-left: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
